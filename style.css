@@ -1,0 +1,59 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+h1{
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    top: 71px;
+    left: 472px;
+    z-index: 1;
+}
+.one{
+    transform: scale(0.1) ;
+    z-index: 2;
+    position: absolute;
+    top: -150px;
+    left: -30px;
+}
+.cont{
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+.img{
+    position: absolute;
+    top: 229px;
+    left: 519px;
+    transform: scale(3);
+}
+.two{
+    transform: scale(0.1) ;
+    z-index: 2;
+    position: absolute;
+    top: -150px;
+    left: 96px;
+}
+.three{
+    transform: scale(0.1) ;
+    z-index: 2;
+    position: absolute;
+    top: -150px;
+    left: 230px;
+}
+.but{
+    background: gray;
+    position: absolute;
+    top: 199px;
+    left: 818px;
+    width: 48px;
+    height: 193px;
+    opacity: 0;
+}
+.maney{
+    position: absolute;
+    top: 60px;
+    right: 190px;
+    font-size: 20px;
+}
